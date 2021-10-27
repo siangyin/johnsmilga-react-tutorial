@@ -40,10 +40,6 @@ a.project-block {
 	text-align: center;
 }
 
-a:hover {
-	color: palevioletred;
-}
-
 .projectlist {
 	width: 90vw;
 	max-width: 1170px;
@@ -63,10 +59,16 @@ a:hover {
 	max-width: 25vw;
 	min-width: 200px;
 	height: 250px;
-	background: whitesmoke;
+	background: white;
 	border-radius: 1rem;
 	padding: 1rem 2rem;
 }
+
+.project:hover {
+	background-color: rgb(251, 224, 224);
+	color: indianred;
+}
+
 .project h2 {
 	margin-top: 0.5rem;
 }
