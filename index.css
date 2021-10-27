@@ -29,6 +29,13 @@ li {
 	margin-left: 25px;
 	font-size: smaller;
 }
+
+a.project-block {
+	text-decoration: none;
+	color: inherit;
+	text-align: center;
+}
+
 .projectlist {
 	width: 90vw;
 	max-width: 1170px;
