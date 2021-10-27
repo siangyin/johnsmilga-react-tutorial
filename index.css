@@ -13,11 +13,22 @@ body {
 	color: slategrey;
 }
 
-img {
-	width: 150px;
-	height: auto;
+h1 {
+	text-align: center;
 }
 
+img {
+	max-width: 150px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
+	margin-left: 25px;
+	font-size: smaller;
+}
 .projectlist {
 	width: 90vw;
 	max-width: 1170px;
@@ -28,13 +39,14 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-	.productlist {
+	.projectlist {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
 .project {
 	max-width: 25vw;
+	min-width: 200px;
 	height: 250px;
 	background: whitesmoke;
 	border-radius: 1rem;
