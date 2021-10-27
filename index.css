@@ -2,10 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
+	font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	margin: 5%;
 	padding: 0 20px 20px 20px;
 	background-color: rgb(200, 234, 255);
@@ -13,17 +13,38 @@ body {
 	color: slategrey;
 }
 
-h1,
-h2 {
-	font-size: larger;
-	color: rgb(41, 41, 43);
-	padding: 20px 0 15px 0px;
+img {
+	width: 150px;
+	height: auto;
 }
-li {
-	margin-left: 40px;
-	font-size: 1rem;
+
+.projectlist {
+	width: 90vw;
+	max-width: 1170px;
+	margin: 5rem auto;
+	display: grid;
+	gap: 2rem;
+	color: rgb(50, 50, 50);
 }
-ol {
-	font-size: 1.1rem;
-	line-height: 1.8rem;
+
+@media screen and (min-width: 768px) {
+	.productlist {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.project {
+	max-width: 25vw;
+	height: 250px;
+	background: whitesmoke;
+	border-radius: 1rem;
+	padding: 1rem 2rem;
+}
+.project h1 {
+	margin-top: 0.5rem;
+}
+
+.project h4 {
+	color: grey;
+	font-size: 0.75rem;
 }
