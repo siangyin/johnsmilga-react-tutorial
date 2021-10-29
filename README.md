@@ -6,18 +6,22 @@
 
 [Projects Site](https://react-projects.netlify.app/)
 
-## Corresponding Tutorial Topics
+## demo-links
+(https://siangyin.github.io/johnsmilga-react-tutorial/)
 
 #### useState
 
 1. Birthday Reminder
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/siangyin/johnsmilga-react-tutorial/blob/master/images/01-birthdayreminder.png)
 
 #### useEffect and Conditional Rendering
 
 2. Tours
+![alt text](https://github.com/siangyin/johnsmilga-react-tutorial/blob/master/images/02-tour.png)
 3. Reviews
+![alt text](https://github.com/siangyin/johnsmilga-react-tutorial/blob/master/images/03-reviews.png)
 4. Questions
+
 5. Menu
 6. Tabs
 7. Slider
