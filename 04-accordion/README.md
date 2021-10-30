@@ -19,7 +19,7 @@ const Component = () => {
 };
 ```
 
-### Links
+# Links
 ## Main-page
 ["https://siangyin.github.io/johnsmilga-react-tutorial/"]
 
