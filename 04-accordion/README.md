@@ -13,8 +13,14 @@ npm install react-icons --save
 ```
 
 ```javascript
-import { FaHome } from 'react-icons/fa';
+import { FaHome } from "react-icons/fa";
 const Component = () => {
-  return <FaHome className='icon'></FaHome>;
+	return <FaHome className="icon"></FaHome>;
 };
 ```
+
+##Main-page
+["https://siangyin.github.io/johnsmilga-react-tutorial/"]
+
+##Demo Links
+["https://siangyin-react-p03reviews.netlify.app"]
