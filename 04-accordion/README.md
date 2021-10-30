@@ -19,8 +19,10 @@ const Component = () => {
 };
 ```
 
-##Main-page
+### Links
+## Main-page
 ["https://siangyin.github.io/johnsmilga-react-tutorial/"]
 
-##Demo Links
+
+## Demo Links
 ["https://siangyin-react-p03reviews.netlify.app"]
