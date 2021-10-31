@@ -10,9 +10,11 @@ function App() {
 		<main>
 			<section className="menu-selection">
 				<div className="title">
-          <h2>our menu</h2>
-          <div className="underline"></div>
+					<h2>our menu</h2>
+					<div className="underline"></div>
 				</div>
+				<Categories />
+        <Menu items={ menuItems}/>
 			</section>
 		</main>
 	);
