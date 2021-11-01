@@ -10,7 +10,6 @@ const Categories = ({ categories, filterItems }) => {
 						key={i}
 						className="filter-btn"
 						onClick={() => {
-							console.log(category);
 							filterItems(category);
 						}}
 					>
