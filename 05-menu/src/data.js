@@ -73,11 +73,11 @@ const menu = [
 	},
 	{
 		id: 10,
-		title: "quarantine buddy",
+		title: "diner double",
 		category: "dinner",
-		price: 16.99,
-		img: "./images/item-9.jpeg",
-		desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+		price: 13.99,
+		img: "./images/item-2.jpeg",
+		desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
 	},
 ];
 export default menu;
