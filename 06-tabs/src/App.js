@@ -42,6 +42,7 @@ function App() {
 								onClick={() => {
 									setValue(i);
 								}}
+								className={`job-btn ${i === value && "active-btn"}`}
 							>
 								{job.company}
 							</button>
