@@ -3,9 +3,9 @@ import sublinks from "./data";
 
 const AppContext = React.createContext();
 
-function AppProvider({ children }) {
-	const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-	const [isModalOpen, setIsModalOpen] = useState(true);
+export function AppProvider({ children }) {
+	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+	const [isSubmenuOpen, setIsSubmenuOpen] = useState(true);
 
 	function openSidebar() {
 		setIsSidebarOpen(true);
@@ -14,20 +14,20 @@ function AppProvider({ children }) {
 		setIsSidebarOpen(false);
 	}
 
-	function openModal() {
-		setIsModalOpen(true);
+	function openSubmenu() {
+		setIsSubmenuOpen(true);
 	}
-	function closeModal() {
-		setIsModalOpen(false);
+	function closeSubmenu() {
+		setIsSubmenuOpen(false);
 	}
 
 	return (
 		<AppContext.Provider
 			value={{
-				isModalOpen,
+				isSubmenuOpen,
 				isSidebarOpen,
-				openModal,
-				closeModal,
+				openSubmenu,
+				closeSubmenu,
 				openSidebar,
 				closeSidebar,
 			}}
@@ -35,4 +35,8 @@ function AppProvider({ children }) {
 			{children}
 		</AppContext.Provider>
 	);
+}
+
+export function useGlobalContext() {
+	return useContext(AppContext);
 }
