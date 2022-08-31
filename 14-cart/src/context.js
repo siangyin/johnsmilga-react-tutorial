@@ -30,6 +30,10 @@ const AppProvider = ({ children }) => {
 		dispatch({ type: "DECREASE", payload: id });
 	};
 
+	useEffect(() => {
+		dispatch({ type: "GETTL" });
+	}, [state.cart]);
+
 	return (
 		<AppContext.Provider
 			value={{ ...state, clearCart, remove, increase, decrease }}
