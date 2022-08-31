@@ -8,5 +8,26 @@ export const reducer = (state, action) => {
 			cart: state.cart.filter((item) => item.id !== action.payload),
 		};
 	}
+	if (action.type === "INCREASE") {
+		return {
+			...state,
+			cart: state.cart.map((item) => {
+				if (item.id === action.payload) {
+					return { ...item, amount: item.amount + 1 };
+				} else return item;
+			}),
+		};
+	}
+
+	if (action.type === "DECREASE") {
+		return {
+			...state,
+			cart: state.cart.map((item) => {
+				if (item.id === action.payload) {
+					return { ...item, amount: item.amount - 1 };
+				} else return item;
+			}).filter(item => item.amount !== 0)
+		};
+	}
 	return state;
 };
