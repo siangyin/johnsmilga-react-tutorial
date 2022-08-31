@@ -1,58 +1,57 @@
-#### Tutorial Video
+# React Exercises
+### [Demo page](https://siangyin.github.io/react-exercises/)
 
-(React Tutorial)[https://youtu.be/iZhV0bILFb0]
+## useState
+### 1. Birthday Reminder
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/01-birthdayreminder.png?raw=true">
 
-#### All Projects
+## useEffect and Conditional Rendering
+### 2. Tours
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/02-tour.png?raw=true">
 
-[Projects Site](https://react-projects.netlify.app/)
+### 3. Reviews
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/03-reviews.png?raw=true">
 
-## demo-links
-(https://siangyin.github.io/johnsmilga-react-tutorial/)
+### 4. Questions
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/04-accordion.png?raw=true">
 
-#### useState
+### 5. Menu
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/05-menu.png?raw=true">
 
-1. Birthday Reminder
-![alt text](https://github.com/siangyin/johnsmilga-react-tutorial/blob/master/images/01-birthdayreminder.png)
+### 6. Tabs
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/06-tabs.png?raw=true">
 
-#### useEffect and Conditional Rendering
+### 7. Slider
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/07-slider.png?raw=true">
 
-2. Tours
-![alt text](https://github.com/siangyin/johnsmilga-react-tutorial/blob/master/images/02-tour.png)
-3. Reviews
-![alt text](https://github.com/siangyin/johnsmilga-react-tutorial/blob/master/images/03-reviews.png)
-4. Questions
+## Forms
+### 8. Lorem Ipsum Generator
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/08-loremipsum.png?raw=true">
 
-5. Menu
-6. Tabs
-7. Slider
+### 9. Color Shades Generator
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/09-colorgenerator.png?raw=true">
 
-#### Forms
+### 10. Grocery Bud
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/10-grocerybudget.png?raw=true">
 
-8. Lorem Ipsum Generator
-9. Color Shades Generator
-10. Grocery Bud
+## useRef
+### 11. Navbar
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/11-navbar.png?raw=true">
 
-#### useRef
+## useContext
+### 12. Modal And Sidebar
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/12-modal.png?raw=true">
 
-11. Navbar
+### 13. Stripe Submenus
+<img width="500" alt="img" src="https://github.com/siangyin/react-exercises/blob/master/ui-screenshot/13-stripe.png?raw=true">
 
-#### useContext
+## useReducer and useContext
+### 14. Cart
 
-12. Modal And Sidebar
-13. Stripe Submenus
-
-#### useReducer and useContext
-
-14. Cart
-
-#### React Router and useCallback
-
+## React Router and useCallback
 15. Cocktails
 
 ## Advanced Projects (Course Exclusive)
-
-[Course Link](https://www.udemy.com/course/react-tutorial-and-projects-course/?couponCode=REACT-OCT)
-
 16. Markdown Preview
 17. Random Person
 18. Pagination
